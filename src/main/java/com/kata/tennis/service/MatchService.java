@@ -3,6 +3,8 @@ package com.kata.tennis.service;
 import java.util.List;
 import java.util.Objects;
 
+import org.springframework.stereotype.Service;
+
 import com.kata.tennis.domain.Game;
 import com.kata.tennis.domain.Match;
 import com.kata.tennis.domain.MatchScore;
@@ -12,6 +14,7 @@ import com.kata.tennis.domain.TennisSet;
 
 import lombok.Getter;
 
+@Service
 public class MatchService {
 	
 	private static final int MAX_GAMES = 6;
